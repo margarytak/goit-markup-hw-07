@@ -236,7 +236,7 @@ img {
   transition: var(--transition-border);
 }
 
-.modal-msg::placeholder {
+.modal-form__msg::placeholder {
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
@@ -295,7 +295,7 @@ img {
   fill: var(--white);
 }
 
-.modal-link {
+.modal-form__link {
   text-decoration: underline;
   color: var(--accent-color);
   margin-left: 3px;
