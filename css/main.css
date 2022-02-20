@@ -160,6 +160,7 @@ img {
   position: absolute;
   top: 8px;
   right: 8px;
+  cursor: pointer;
 }
 
 .modal__close-btn:focus {
@@ -271,7 +272,7 @@ img {
   fill: transparent;
 }
 
-.modal-form__checkbox-label span {
+.modal-form__checkbox-label .modal-form__icon-wrap {
   color: var(--dark-text-color);
   width: 16px;
   height: 15px;

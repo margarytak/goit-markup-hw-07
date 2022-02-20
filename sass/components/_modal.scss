@@ -7,8 +7,10 @@
   transition: opacity 500ms, visibility 500ms;
 }
 
-.backdrop.is-hidden .modal {
-  transform: translate(-50%, -50%) scale(0.3);
+.backdrop.is-hidden {
+  .modal {
+    transform: translate(-50%, -50%) scale(0.3);
+  }
 }
 
 .modal {
@@ -37,6 +39,7 @@
   position: absolute;
   top: 8px;
   right: 8px;
+  cursor: pointer;
   &:focus {
     outline: none;
   }
@@ -142,15 +145,17 @@
   fill: transparent;
 }
 
-.modal-form__checkbox-label span {
-  color: var(--dark-text-color);
-  width: 16px;
-  height: 15px;
-  border: 2px solid;
-  border-radius: 2px;
-  margin-right: 9px;
-  display: flex;
-  align-items: center;
+.modal-form__checkbox-label {
+  .modal-form__icon-wrap {
+    color: var(--dark-text-color);
+    width: 16px;
+    height: 15px;
+    border: 2px solid;
+    border-radius: 2px;
+    margin-right: 9px;
+    display: flex;
+    align-items: center;
+  }
 }
 
 .modal-form__check:focus + .modal-form__checkbox-label > .modal-form__icon-wrap {
