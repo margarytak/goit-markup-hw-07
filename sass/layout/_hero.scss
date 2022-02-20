@@ -10,7 +10,7 @@
   margin-left: auto;
 }
 
-.hero-title {
+.hero__title {
   margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
@@ -21,11 +21,6 @@
   color: var(--white);
 }
 
-.btn-hero {
+.hero__btn {
   padding: 10px 32px;
-}
-
-.button:hover,
-.button:focus {
-  background-color: var(--button-accent-color);
 }

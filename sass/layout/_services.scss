@@ -2,18 +2,18 @@
   padding-top: 47px;
 }
 
-.services-item + .services-item {
-  margin-left: 30px;
-}
-
 .services-list {
   display: flex;
 }
 
-.services-item {
+.services-list__item {
   position: relative;
+  & + & {
+    margin-left: 30px;
+  }
 }
-.services-item-name {
+
+.services-list__item-name {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
